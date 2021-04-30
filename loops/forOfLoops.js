@@ -21,3 +21,21 @@ let soupArray = ["potato", "broccoli", "carrot", "chicken noodle", "chili"];
 for (soup of soupArray) {
   console.log(soup);
 }
+
+function sum(a, b) {
+  return a + b;
+}
+console.log(sum(1, 2, 3, 4));
+
+blah = function () {
+  return localStorage;
+};
+
+function whatDoesItDo(color) {
+  if (color !== "blue" || color !== "green") {
+    color = "red";
+  }
+  return color;
+}
+
+console.log(whatDoesItDo("green"));

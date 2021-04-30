@@ -14,3 +14,14 @@ b();
 function b() {
   console.log("I have been hoisted.");
 }
+
+let count = 0;
+for (; count < 9; ++count) {
+  console.log(count);
+}
+
+let catArray = ["tabby", "british", "burm", "shorthair"];
+
+for (let cat in catArray) {
+  console.log(cat);
+}
